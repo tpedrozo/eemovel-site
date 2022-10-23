@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="fixed top-0 left-0 right-0 flex items-center justify-between p-5">
+        <img src="data:image/png;base64,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"
+            alt="" />
+        <svg stroke="currentColor" stroke-width="0" viewBox="0 0 448 512" class="h-auto w-5 fill-white"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+                d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z">
+            </path>
+        </svg>
+    </header>
+
+    <section
+        class="flex h-[440px] flex-col bg-[url('https://eemovel.com.br/static/media/bg-banner.b11e2002.jpg')] bg-cover bg-center pt-24">
+        <h1 class="mx-auto max-w-[328px] text-center text-[24px] font-semibold text-white">Utilize a inteligência
+            imobiliária para aumentar suas captações.</h1>
+        <button class="mx-auto mt-8 bg-[#3e63ad] px-6 py-3 text-sm font-bold text-white">Experimente Grátis!</button>
+    </section>
+
+    <section class="bg-[#3e63ad] py-24 text-center">
+        <div class="-mt-48 w-full">
+            <iframe width="320px" height="200px" class="mx-auto"
+                src="https://www.youtube.com/embed/rwR42OZSbHM?autoplay=1&amp;mute=1&amp;loop=1&amp;rel=0&amp;showinfo=0"
+                frameborder="0" allow="accelerometer; autoplay; rel; loop; showinfo;" allowfullscreen=""
+                title="Embedded youtube"></iframe>
+        </div>
+        <h2 class="mx-auto mt-5 max-w-xs text-2xl text-white">O <b>maior</b> banco de dados imobiliários da <b>América
+                Latina</b></h2>
+        <div class="grid grid-cols-3 mt-12">
+            <div class="sc-jUOgmM hQLNfm">
+                <p class="text-white text-xl text-center">
+                    <b>+11000</b><br />
+                    usuários
+                </p>
+                <p class="text-white hidden">+30 milhões de anúncios ativos</p>
+            </div>
+            <div class="sc-jUOgmM hQLNfm">
+                <p class="text-white text-xl text-center"><b>+30 Milhões</b><br />de anúncios</p>
+                <p class="text-white hidden">+11000 corretores impactados</p>
+            </div>
+            <div class="sc-jUOgmM hQLNfm">
+                <p class="text-white text-xl text-center"><b>+200</b><br />cidades</p>
+                <p class="text-white hidden">+200 cidades disponíveis</p>
+            </div>
+        </div>
+
+        <div class="mt-14">
+            <div class="max-w-[389px] mx-auto bg-[#4281ff] p-6 rounded-2xl shadow-2xl relative">
+                <p class="text-white text-start font-normal">
+                    A EEmovel tem me ajudado bastante! Quando um cliente procura um apartamento em alguma área
+                    específica da cidade, consigo rapidamente levantar imóveis para apresentar. Agiliza muito meu
+                    trabalho.
+                </p>
+                <p class="font-bold text-white text-base text-start mt-5 ">
+                    Jackson Souza, Balneario Camboriú, Santa Catarina
+                </p>
+
+                <div class="flex absolute mt-10 gap-3 right-0">
+                    <a class="sc-gqgnwQ eIFUcK"><svg width="38" height="39" viewBox="0 0 38 39" fill="#EEF0F4"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M32.44,5.56c3.56,3.56,5.56,8.39,5.56,13.43,0,5.04-2,9.87-5.56,13.43-3.56,3.56-8.4,5.56-13.44,5.56s-9.87-2-13.44-5.56C2,28.86,0,24.03,0,18.99S2,9.12,5.56,5.56C9.13,2,13.96,0,19,0s9.87,2,13.44,5.56ZM13.55,17.8l5.1-5.09c.22-.22,.35-.53,.35-.84,0-.32-.13-.62-.35-.84-.22-.22-.53-.35-.84-.35s-.62,.13-.84,.35l-7.13,7.12c-.11,.11-.2,.24-.26,.39-.06,.14-.09,.3-.09,.45s.03,.31,.09,.45c.06,.14,.15,.28,.26,.39l7.12,7.12c.22,.22,.53,.35,.84,.35s.62-.13,.84-.35c.22-.22,.35-.53,.35-.84,0-.32-.13-.62-.35-.84l-5.1-5.09h13.76c.31,0,.62-.13,.84-.35,.22-.22,.35-.52,.35-.84s-.13-.62-.35-.84c-.22-.22-.52-.35-.84-.35H13.55Z">
+                            </path>
+                        </svg></a><a class="sc-gqgnwQ eIFUcK"><svg width="38" height="39" viewBox="0 0 38 39"
+                            fill="#EEF0F4" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M19 0.960803C24.0391 0.960803 28.8718 2.96158 32.435 6.523C35.9982 10.0844 38 14.9147 38 19.9513C38 24.988 35.9982 29.8183 32.435 33.3797C28.8718 36.9411 24.0391 38.9419 19 38.9419C13.9609 38.9419 9.12816 36.9411 5.56497 33.3797C2.00178 29.8183 -5.30519e-07 24.988 -7.22007e-07 19.9513C-9.13495e-07 14.9147 2.00178 10.0844 5.56497 6.52301C9.12816 2.96159 13.9609 0.960803 19 0.960803ZM10.6875 18.7644C10.3726 18.7644 10.0705 18.8895 9.84781 19.1121C9.62511 19.3347 9.5 19.6366 9.5 19.9513C9.5 20.2661 9.62511 20.568 9.84781 20.7906C10.0705 21.0132 10.3726 21.1383 10.6875 21.1383L24.4459 21.1383L19.3467 26.2325C19.1238 26.4553 18.9985 26.7576 18.9985 27.0728C18.9985 27.388 19.1238 27.6903 19.3467 27.9131C19.5697 28.136 19.8722 28.2612 20.1875 28.2612C20.5028 28.2612 20.8053 28.136 21.0282 27.9131L28.1532 20.7917C28.2638 20.6814 28.3516 20.5504 28.4114 20.4063C28.4713 20.2621 28.5021 20.1075 28.5021 19.9513C28.5021 19.7952 28.4713 19.6406 28.4114 19.4964C28.3516 19.3522 28.2638 19.2213 28.1532 19.111L21.0282 11.9896C20.8053 11.7667 20.5028 11.6415 20.1875 11.6415C19.8722 11.6415 19.5697 11.7667 19.3467 11.9896C19.1238 12.2124 18.9985 12.5147 18.9985 12.8299C18.9985 13.1451 19.1238 13.4474 19.3467 13.6702L24.4459 18.7644L10.6875 18.7644Z"
+                                fill="inherit"></path>
+                        </svg></a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="mx-5 py-10">
+
+        <h2 class="text-2xl font-semibold text-center">
+            Acesse <span class="text-[#3e63ad]">todos os anúncios</span> da sua cidade em menos de <span class="text-[#3e63ad]">um
+                minuto!</span>
+        </h2>
+
+        <p class="text-center mt-10">
+            Não perca mais tempo navegando em portais atrás de novos imóveis. Com nossa Busca Inteligente você tem acesso a todos os anúncios de sua cidade em um só lugar, além de avaliar qualquer imóvel em menos de 1 minuto com nossa Avaliação Digital.
+        </p>
+
+    </section>
+
+</body>
+
+</html>
